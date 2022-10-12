@@ -198,8 +198,7 @@ label{
     margin: 7% auto;
     border: rgb(226, 170, 243) solid 16px;
     border-radius: 25px;
-    background-image: url(bg.jpg);
-    background-color: rgb(194, 132, 191);
+    background-color: #fce4f3;
 }
 
 .blackboard:before {
