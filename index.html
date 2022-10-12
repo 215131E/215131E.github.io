@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="personal blog.css">
         
+        
     </head>
     <body>
         <div>
@@ -66,15 +67,39 @@
         </table>
         
         </div>
-        <p class="subt" id="contact" style="margin-right: 80%;">Be in touch with me</p><br><br>
-
-        <form>
+        
+        <!--<form>
             <label class="para">Name</label>
             <input type="text" D><br><br>
             <label class="para">message</label>
             <input type="text"><br><br>
             <input type="submit" value="send" onclick="gomessage()" style="margin-bottom: 10px;margin-left: 350px; font-family: 'Bradley Hand ITC', '80 Decibels', 'Curlz MT';">
-        </form>
+        </form>-->
+        <div>
+            <div class="blackboard">
+                <div class="form">
+                    <p>
+                        <label>What's your name?: </label>
+                        <input type="text" />
+                    </p>
+                    <p>
+                        <label>Email: </label>
+                        <input type="text" />
+                    </p>
+                    <p>
+                        <label>Phone: </label>
+                        <input type="tel" />
+                    </p>
+                    <p>
+                        <label>Message for me: </label>
+                        <textarea></textarea>
+                    </p>
+                    <p class="wipeout">
+                        <input type="submit" value="Send" onclick="gomessage()" />
+                    </p>
+                </div>
+            </div>
+        </div>
 
         <script>
             function gomessage(){

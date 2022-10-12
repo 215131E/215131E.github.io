@@ -1,3 +1,8 @@
+body{
+    background-color: #ecdee7;
+}
+
+
 .title{
     color: #ffffff;
     font-family: 'Bradley Hand ITC', '80 Decibels', 'Curlz MT';
@@ -155,3 +160,77 @@ form{
 label{
     padding: 10px;
 }
+
+/*contact us*/
+
+
+.blackboard {
+    position: relative;
+    width: 640px;
+    margin: 7% auto;
+    border: rgb(226, 170, 243) solid 16px;
+    border-radius: 25px;
+    background-image: url(bg.jpg);
+    background-color: rgb(194, 132, 191);
+}
+
+.blackboard:before {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "Be in touch with me";
+    font-family: 'Bradley Hand ITC', '80 Decibels', 'Curlz MT', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(170, 124, 189, 0.7);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form {
+    padding: 70px 20px 20px;
+}
+
+label {
+    vertical-align: middle;
+    font-family:'Bradley Hand ITC', '80 Decibels', 'Curlz MT', cursive;
+    font-size: 1.6em;
+    color: rgba(170, 124, 189, 0.7);
+    font-weight: bold;
+}
+
+input,
+textarea {
+    vertical-align: middle;
+    padding-left: 10px;
+    background: none;
+    border: none;
+    font-family:'Bradley Hand ITC', '80 Decibels', 'Curlz MT', cursive;
+    font-size: 1.6em;
+    color: rgba(170, 124, 189, 0.7);
+    line-height: .6em;
+    outline: none;
+    font-weight: bold;
+}
+
+textarea {
+    height: 120px;
+    font-size: 1.4em;
+    line-height: 1em;
+    resize: none;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    color: rgba(170, 124, 189, 0.7);
+    line-height: 1em;
+    padding: 0;
+}
+
+input[type="submit"]:focus {
+    background: rgba(238, 238, 238, 0.2);
+    color: rgba(238, 238, 238, 0.2);
+}
+
+
