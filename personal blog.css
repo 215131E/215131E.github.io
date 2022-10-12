@@ -291,7 +291,6 @@ input[type="submit"]:focus {
   }
   
   .container .card .image {
-    position: relative;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -325,15 +324,19 @@ input[type="submit"]:focus {
   }
   
   .image1 {
-    background-image: url("rbv.png");
+    background-image: url("rbv-removebg-preview.png");
+    margin-left: -8px;
   }
   
   .image2 {
-    background-image: url("mora.jpg");
+    background-image: url("mora.png");
+    margin-left: -12px;
   }
   
   .image3 {
-    background-image: url("SLIIT.png");
+    background-image: url("SLIIT-removebg-preview.png");
+    margin-left: -10px;
+    
   }
   
   svg {
